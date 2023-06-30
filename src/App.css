@@ -1,38 +1,163 @@
-.App {
-  text-align: center;
+* {
+  padding-left: 5px;
+  padding-top: 1px;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+    Verdana, sans-serif;
+  text-decoration: none;
+  cursor: pointer;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app {
+  display: flex;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.body_container {
+  flex: 1;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sidebar {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  width: 15%;
+  min-height: 100vh;
+  background-color: #3b3c36;
+  border-radius: 20px;
+}
+.sidebar_header {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.logo1 {
+  font-size: 40px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.sidebar_header span {
+  font-size: 18px;
+  color: white;
+  margin-left: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sidebar_hr {
+  background: linear-gradient(to right, transparent, #b5b5b5, transparent);
+  margin: 15px;
+  height: 1px;
+  border: none;
+  padding: 0;
+}
+
+.icons {
+  font-size: 20px;
+  color: white;
+}
+
+.lists {
+  font-size: 15px;
+  color: white;
+  margin-left: 8px;
+}
+
+.listItem {
+  margin: 10px;
+  padding-block: 10px;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+
+.listItem_profile {
+  margin: 10px;
+  padding-block: 10px;
+  padding-right: 20px;
+  border-radius: 10px;
+  background-color: #007fff;
+}
+
+.listItem:hover {
+  color: white;
+  background-color: #007fff;
+}
+
+.button_pro {
+  margin-bottom: 10%;
+  padding: 15px 20px;
+  font-weight: bold;
+  color: white;
+  font-size: 15px;
+  background-color: #007fff;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(69, 68, 68, 0.3) 0px 30px 60px -30px,
+    rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
+}
+
+.button_pro:hover {
+  background-color: #0160c0;
+}
+
+/* NAVBAR DESIGN */
+
+.right_side {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  flex: 1;
+  padding-inline: 30px;
+}
+.navbar_left {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+}
+
+.navbar_profile {
+  display: block;
+  align-items: center;
+}
+
+.navbar_name {
+  font-size: 20px;
+  color: #454542;
+  font-weight: bold;
+}
+
+.ceo {
+  font-size: 15px;
+  color: #7b7b7b;
+  font-weight: 600px;
+}
+
+.navbar_buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: 50%;
+}
+
+.navbar_btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  outline: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 15px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.7), 10px 10px 10px rgba(0, 0, 0, 0.2),
+    inset 8px 8px 15px rgba(255, 255, 255, 0.7), inset 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar_icons {
+  font-size: 20px;
+  color: #3b3c36;
 }

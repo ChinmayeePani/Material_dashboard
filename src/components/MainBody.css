@@ -1,0 +1,99 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+    Verdana, sans-serif;
+  text-decoration: none;
+}
+.mainbody_container {
+  display: flex;
+  gap: 100px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.platform_contents {
+  display: flex;
+  flex-direction: column;
+}
+
+.platform_contents h3 {
+  color: rgb(79, 79, 79);
+}
+
+.platform_contents h6 {
+  color: gray;
+  margin-top: 15px;
+}
+
+.toggle_contents {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top:10px;
+  width: 350px;
+}
+
+.toggle_on {
+  font-size: 30px;
+}
+
+.toggle_contents p {
+  font-size: 15px;
+  color: gray;
+  display: block;
+}
+
+.profile_info {
+  margin-top: 10px;
+  color: gray;
+  text-align: justify;
+  width: 450px;
+  line-height: 25px;
+}
+
+.data_heading {
+  font-weight: bold;
+}
+
+.fb {
+  color: blue;
+  font-size: 22px;
+}
+
+.twitter {
+  color: rgb(0, 98, 245);
+  font-size: 22px;
+}
+
+.insta {
+  color: rgb(206, 19, 162);
+  font-size: 22px;
+}
+.avatar_group {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.avatars_details {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.avatars_details p{
+    font-size: 15px;
+    color: gray;
+    text-align: left;
+}
+
+.second_line{
+    display: flex;
+    justify-content: space-between;
+}
+.second_line p{
+margin-left: -6px;
+}
+.second_line h5{
+    color: rgb(0, 106, 255);
+    font-weight: bold;
+}

@@ -1,0 +1,119 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+    Verdana, sans-serif;
+  text-decoration: none;
+}
+
+.project {
+  color: rgb(63, 62, 62);
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.lower_para {
+  color: gray;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.cards_container {
+  display: flex;
+  gap: 30px;
+  margin-left: 10px;
+  margin-right: 25px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+ 
+}
+
+.card_contents {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 25%;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+}
+
+.card_contents:hover{
+  border-bottom: 5px solid grey;
+  transition: .2s;
+}
+
+.card_image {
+  width: 98%;
+  height: 300px;
+  margin-top: 20px;
+  border-radius: 30px;
+}
+
+.card_contents p {
+  margin-top: 10px;
+  color: rgb(119, 117, 117);
+}
+
+.card_contents span{
+  font-size: 20px;
+  font-weight: 800px;
+}
+.card_buttons {
+  padding: 8px 20px;
+  width: 40%;
+  border: 2px solid rgb(4, 95, 223);
+  color: rgb(4, 95, 223);
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.card_buttons:hover{
+  background-color: rgb(29, 158, 237);
+  color: white;
+}
+
+.btn_avatars {
+  display: flex;
+  align-items: center;
+ gap: 30%;
+  margin-block: 50px;
+}
+.avatars_collection {
+  display: flex;
+}
+.avatar_image {
+  height: 30px;
+  width: 30px;
+  border-radius: 100px;
+  overflow: auto;
+}
+.avatar1_image {
+  height: 30px;
+  width: 30px;
+  border-radius: 100px;
+  margin-left: -10px;
+  overflow: auto;
+}
+
+.avatar2_image {
+  height: 30px;
+  width: 30px;
+  border-radius: 100px;
+  margin-left: -10px;
+  overflow: auto;
+}
+.avatar3_image {
+  height: 30px;
+  width: 30px;
+  border-radius: 100px;
+  margin-left: -10px;
+  overflow: auto;
+}
+.avatar4_image {
+  height: 30px;
+  width: 30px;
+  border-radius: 100px;
+  margin-left: -10px;
+  overflow: auto;
+}
